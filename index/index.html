@@ -16,7 +16,8 @@
 
            const dataChannels = new Map();  // 相手ごとのデータチャネルを管理 //
 
-            const signalingConnection = new WebSocket("ws://localhost:8081");
+            const signalingConnection = new WebSocket("wss://web-rtc-test-production.up.railway.app");
+
             let myID = null;
 
             // ボタン
